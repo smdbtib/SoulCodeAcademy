@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+}
+
+.grid1 {
+    display: grid;
+    height: 100vh;
+    /* grid-template-columns: 200px 300px 1fr 1fr ; */
+    /* grid-template-columns: repeat(3, 200px); */
+    /* grid-template-columns: 400px 1fr 2fr; */
+    /* grid-template-columns: minmax(100px 200px) 1fr; */
+    /* grid-template-columns: 100px 0.5fr; */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 300px 150px; */
+    /* grid-template-rows: repeat(5, 100px); */
+    grid-template-rows: 100px 1fr;
+    /* gap: 10px; */
+    row-gap: 10px;
+    column-gap: 20px;
+    background-color: seagreen;
+}
+
+.item {
+    background-color: royalblue;
+    color: white;
+    border: 1px dashed white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid2 {
+    display: grid;
+    height: 100vh;
+    /* grid-template-areas:
+    "head head"
+    "side cont"
+    "side foot"; */
+    gap: 8px;
+    grid-template:
+    "head head" 64px
+    "side cont" 1fr
+    "side foot" 48px
+    / 200px 1fr; 
+}
+
+.grid2 header {
+    background-color: seagreen;
+    grid-area: head;
+}
+
+.grid2 aside {
+    background-color: salmon;
+    grid-area: side;
+}
+
+.grid2 main {
+    background-color:royalblue;
+    grid-area: cont;
+}
+
+.grid2 footer {
+    background-color: slateblue;
+    grid-area: foot;
+}
+
+/* GRID3 */
+.grid3 {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 64px 1fr 72px;
+}
+
+.grid3 header {
+    background-color: seagreen;
+    /*         INICIO  FINAL */
+    /*         L   C   L   C */
+    grid-area: 1 / 1 / 2 / 3 ;
+}
+
+.grid3 aside {
+    background-color: salmon;
+    /*         INICIO  FINAL */
+    /*         L   C   L   C */
+    grid-area: 2 / 1 / 4 / 1 ;
+}
+
+.grid3 main {
+    /* background-color:royalblue; */
+    /* background: linear-gradient(green, blue, red, pink); */
+    /* background: linear-gradient(to bottom, green, blue ); */
+    /* background: linear-gradient(75deg, green, blue ); */
+    /* background: radial-gradient(pink,red, green, blue ); */
+    /* background: radial-gradient(circle,pink,red, green, blue ); */
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+
+    
+}
+
+.grid3 footer {
+    background-color: slateblue;
+   
+}
+
+.content {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+
+}

@@ -1,0 +1,60 @@
+.flex-container {
+    display: flex;
+    background-color:darkred;
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+}
+
+.flex-container div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.flex-container2 {
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: row; */
+    flex-direction: row-reverse;
+    background-color: darkred;
+}
+
+.flex-container2 div {
+     background-color: #f1f1f1;
+     width: 100px;
+     margin: 10px;
+     text-align: center;
+     line-height: 75px;
+     font-size: 30px;
+}
+
+
+.flex-container3 {
+    display: flex;
+    background-color: darkred;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: wrap; */
+    /* flex-flow: wrap-reverse; */
+    /* flex-flow: row wrap; */
+
+}
+
+.flex-container3 div {
+    background-color: #f1f1f1;
+     width: 100px;
+     margin: 10px;
+     text-align: center;
+     line-height: 75px;
+     font-size: 30px;
+}
+

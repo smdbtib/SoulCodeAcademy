@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #22577aff;
+}
+
+h2 {
+    font-size: 28px;
+    color: #22577aff;
+}
+
+hr {
+    border: solid;
+    border-color: #22577aff ;
+}
+
+body {
+    background-color: white;
+    background-image: url(../img/fundo-teste.jpg);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main{
+    width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 180px;
+    background-color: #22577aff;
+}
+
+.logo {
+    margin-left: 80px;
+}
+
+nav a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    padding: 10px;
+    list-style: none;
+    color: white;
+    font-size: 26px;
+}
+
+.content {
+    display: flex;
+}
+
+.content div  {
+    flex-wrap: wrap;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.container-imagem img {
+    width: 200px;
+}
+.config-img {
+    border-radius: 15px;
+    border-color: #c7f9cc ;
+}
+
+.texto1 p {
+    margin-top: 25px;
+    align-items: center;
+    justify-items: center;
+    font-size: 25px;
+    line-height: 48px;
+    line-height: 3rem;
+    width: 50vh;
+}
+
+.texto1 p a  {
+        text-decoration: none;
+        background-color: #22577aff;
+        border-radius: 10px;
+        color: white;  
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 16px;
+        font-size: 2.5rem;
+        line-height: 48px;
+        line-height: 3rem;
+}
+
+.form {
+    border: solid #22577aff;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.form div {
+    width: 100%;
+    height: max-content;
+    border: solid #22577aff;
+    background-color: #22577aff;
+    border-radius: 12px;
+    color: white;
+    /* text-align: center; */
+    padding: 10px;
+}
+
+form textarea {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 130px;
+    background-color: #22577aff;
+}
+
+footer p {
+    font-size: 19px;
+    color: white;
+    margin: 25px;
+    padding: 5px;
+}
+
+
+@media screen and (max-width:1000px){
+    
+
+    header ul{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        width: 100%; 
+        height: 200px;
+        background-color: #22577aff;
+    }
+    
+    img.logo{
+        width: 150px;
+        position: relative;
+    }
+
+    .logo {
+        margin-left: 0px;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    nav li {
+        padding: 0px;
+        list-style: none;
+        color: white;
+        font-size: 26px;
+    }
+
+    
+    body {
+        background-color: white;
+        background-image: url(../img/fundo-teste.jpg);
+        background-position:center;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    main{
+        width: 360px;
+        background-color: white;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    
+    .content {
+        display: block;
+    }
+
+    .texto1 p a  {
+        text-decoration: none;
+        background-color: #22577aff;
+        border-radius: 10px;
+        color: white;  
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 16px;
+        font-size: 2.5rem;
+        line-height: 50%;
+        line-height: 3rem;
+}
+ 
+
+}
+
+
+
+

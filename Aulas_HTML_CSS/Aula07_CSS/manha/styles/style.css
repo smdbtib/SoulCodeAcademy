@@ -1,0 +1,48 @@
+/* .box {
+    width: 200px;
+    height: 200px;
+    border: solid blue;
+    border-radius: 7px;
+    background-color: cadetblue;
+    float: none;
+}
+
+img {
+    border: 2px solid skyblue;
+    border-radius: 5px;
+}
+
+.container {
+    float: right;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+.box1 {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color: #bbb;
+}
+
+.box2 {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color: #ccc;
+}
+
+.box3 {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color: #ddd;   
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

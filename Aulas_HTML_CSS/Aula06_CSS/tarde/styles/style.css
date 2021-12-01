@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body, p {
+    margin: 0;
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 10px solid black;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+#box3 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    box-shadow: -10px -10px black, 10px 10px 10px hotpink;
+    margin: auto;
+
+}
+
+#box4 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    box-shadow:
+              inset -10px -10px 10px black,
+              inset 10px 10px 10px hotpink;
+              /* 10px 10px 10px hotpink; */
+    margin: auto;
+}
+
+.p1 {
+    text-shadow: 1px 1px 10px yellowgreen;
+    font-size: 32px;
+}
+

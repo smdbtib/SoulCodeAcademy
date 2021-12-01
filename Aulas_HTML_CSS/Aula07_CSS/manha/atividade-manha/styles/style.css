@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+
+.box {
+    float: left;
+    width: 50.00%;
+    padding: 50px;
+    background-color: lightskyblue;
+    /* border: solid; */
+}
+
+/* .box2 {
+    float: left;
+    width: 50.00%;
+    padding: 50px;
+    background-color: #ccc;
+} */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img-oceano {
+    width: 100%;  
+}
+
+.img-afunda {
+    width: 300px;
+}

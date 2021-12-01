@@ -1,0 +1,80 @@
+h1 {
+    font-family: 'Arial';
+    color:cornflowerblue;
+}
+
+section p {
+    font-family: "fantasy";
+    color: brown;
+    font-size: 32px;
+}
+
+section p {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#psection1, #psection2 {
+    font-family:monospace;
+    color:darkblue;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.psection {
+    text-transform: none;
+    text-align: center;
+    }
+
+.meu-botao {
+    font-family: cursive;
+    padding: 10px;
+    background-color: red;
+    border-radius: 15px;
+}
+
+.sem-borda {
+    border: 0;
+}
+
+.cor-botao {
+    color: white;
+}
+
+button {
+    border-radius: 20px;
+}
+
+.lista {
+    color: red;
+}
+
+section > h2 { /*Filho direto de um elmento*/
+    text-decoration: none;
+    text-align: center;
+
+}
+
+section h2 {
+    text-decoration: overline;
+}
+
+* { /*SELETOR UNIVERSAL*/ 
+
+}
+
+
+
+
+
+
+/* Ordem 
+1º Seletor ID #
+2º Seletor Class .
+3º Seletor TAG - elemento
+
+*/
+/* section p {
+    text-decoration: underline;
+    text-transform: none;
+} */

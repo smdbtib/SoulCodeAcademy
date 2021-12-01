@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="author" content="Samuel Dias"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Arquivo para cadastro de ususário conforme atividade 002"/>
+        <meta name="keywords" content="cadastrar usuário atividade 002, cadastro de usuário atividade 002"/>
+        <title>Cadastro de Usuário</title>
+    </head>
+    <body>
+        <div>
+            <h1>Formulário Cadastro de Usuário</h1>
+            <figure>
+                <img src="img/cadastro.png" alt="Imagem cadastro" title="Cadastrar usuário" width="60"/>
+            </figure>
+            <hr/>
+        </div>
+        <div>
+            <form method="post" action="#">
+                <label>Nome:<br>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o seu nome...." required/>
+                </label><br><br>
+                <label>Sobrenome:<br>
+                    <input type="text" name="sobrenome" id="sobrenome"  placeholder="Digite o seu sobrenome..." required/>
+                </label><br><br>
+                <label>Data de Nascimento:<br>
+                    <input type="date" name="datanascimento" id="datanascimento" required/>
+                </label><br><br>
+                <label>Email:<br>
+                    <input type="email" name="email" id="email" placeholder="contato@mail.com" required/>
+                </label><br><br>
+                <label>Como gostaria de ser chamado?<br>
+                    <input type="text" name="nomeusuario" id="nomeusuario" placeholder="Nome de usuário" required/>
+                </label><br><br>
+                <label>Sua senha:<br>
+                    <input type="password" name="senha" id="senha" placeholder="*********" required/>
+                </label><br><br>
+                <label>Confirme sua senha:<br>
+                    <input type="password" name="senha" id="senha" placeholder="*********" required/>
+                </label><br><br>
+                <hr/>
+                <input type="submit" name="cadastrar" id="cadastrar" value="Cadastrar"/>
+            </form><br><br>
+            <p>Já tem conta? <a href="login.html">Ir para Login!</a></p><br>
+        </div>
+        <div>
+            <hr/>
+            <p><em>&copy; Samuel Dias - 2021</em></p>
+            <hr/>
+        </div>
+    </body>
+</html>

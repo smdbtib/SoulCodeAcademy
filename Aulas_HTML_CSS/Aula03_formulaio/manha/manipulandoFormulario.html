@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Manipulando Formulários</title>
+    </head>
+    <body>
+        <div>
+            <form method="get" action="#">
+                <label><!-- Forma 01  -->
+                    Nome: 
+                    <input type="text" id="nome" name="nome" placeholder="Digite o seu nome..." required/>
+                </label><br>
+                <label for="nome">Nome:</label><!-- Forma 02 -->
+                <input type="text" id="nome" name="nome" placeholder="Valor do placeholder..."/><br>
+                <label>
+                    Email: 
+                    <input type="email" id="email" name="email" placeholder="Digite o seu email..."/>
+                </label><br>
+                <label>
+                    Senha: 
+                    <input type="password" id="senha" name="senha" placeholder=""/>
+                </label><br>
+                <label>
+                    Senha: 
+                    <input type="password" id="senha" name="senha" placeholder=""/>
+                </label><br>
+                <hr>
+                <h1>Inputs variados</h1>
+                <div>
+                    <h4>Escolha um item:</h4>
+                    <input type="checkbox" id="item1" value="Livros"/>Livros <br>
+                    <input type="checkbox" id="item1" value="Quadrinhos"/>Quadrinhos <br>
+                    <input type="checkbox" id="item1" value="Revistas"/>Revistas <br>
+                </div>
+                <hr>
+                <h4>Escolha uma opção:</h4> <br>
+                <input type="radio" name="idade"  value="18_22"/>18 a 22 anos <br>
+                <input type="radio" name="idade"  value="23_30"/>23 a 30 anos <br>
+                <input type="radio" name="idade"  value="30"/>Acima de 30 anos <br>
+                <br>
+                <hr>
+                <input type="color" value="#0000FF"/>
+                <hr>
+                <input type="date"/>
+                <hr>
+                <input type="file" multiple/>
+                <hr>
+                <input type="hidden" name="identificador"/>
+                <hr>
+                <input type="range"  min="0" max="10"/>
+                <hr>
+                <select name="opcao" id="">
+                    <option value="Valor1">Valor1</option>
+                    <option value="Valor2">Valor2</option>
+                    <option value="Valor3">Valor3</option>
+                </select>
+                <hr>
+                <select name="options">
+                <option value="" selected disabled>Selecione</option>
+                <option value="valor1">Valor 1</option>
+                <option value="valor2">Valor 2</option>
+                <option value="valor3">Valor 3</option>
+                </select>
+                <hr>
+                <textarea name="" id="" cols="30" rows="5" name="texto">
+
+                </textarea>
+                <hr>
+                <input type="submit" name="enviar" id="enviar" value="Enviar"/>
+            </form>
+        </div>
+    </body>
+</html>

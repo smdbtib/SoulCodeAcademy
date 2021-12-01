@@ -1,0 +1,100 @@
+* {
+    text-align: center;
+}
+
+.titulo-h1-dif {
+    font-family: sans-serif;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.linha-riscada{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.obrigatorio {
+    color: rgb(8, 179, 82);
+}
+
+.a-gosto {
+    color: rgb(93, 177, 246);
+}
+
+.tempo-preparo {
+    font-style: italic;
+}
+
+.menu-nave {
+    width: auto;
+    height: auto;
+    background-color: yellowgreen;
+    border-radius: 25px;
+    margin: 12px;
+    
+}
+
+.item-nav  {
+    display: flex;
+    /* position: relative; */
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #444242;
+    font-size: 14px;
+}
+
+.main {
+    margin: 25px;
+    background-color: rgb(220, 250, 247);
+    position: relative;;
+    border-radius: 25px;
+}
+
+li {
+    text-align: justify;
+    /* list-style: ; */
+}
+
+.h2-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #7f8690;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+img {
+    border-radius: 25px;
+    border-style: none;
+    box-shadow: 15px 10px rgb(212, 240, 156),
+                -15px  -10px rgb(212, 240, 156);
+}
+
+.img-salmao {
+    margin: 25px;
+}
+
+.box {
+    width: auto;
+    display: flex;
+    margin-left: 35%;
+    /* margin-bottom: 25px; */
+    padding: 25px; 
+}
+
+body {
+    background-color: rgba(178, 225, 233, 0.918);
+    font-family: Helvetica, sans-serif;
+}
+
+
+
+
+    

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="styles/style.css"/>
+        <style>
+            /* seletor{
+                propriedade1: valor1;
+                propriedade2: valor2;
+            } */
+            p {
+                color: rgb(0, 255, 213);
+                font-size: 36px;
+            }
+        </style>
+        <title>CSS</title>
+    </head>
+    <body>
+        <div><!-- Estilo inline -->
+            <p style="color: green; font-size: 32px;">SoulCode - Estilo Inline</p> 
+            <hr/>
+        </div>
+        <div><!-- Estilo Interno -->
+            <p>SoulCode - Estilo Interno</p>
+            <hr/>
+        </div>
+        <section><!-- Estilo Externo -->
+            <h2>Bem vindo ao CSS - Estilo Externo</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perferendis natus assumenda corrupti, hic dignissimos quam officiis, dolor, necessitatibus pariatur vero. Provident mollitia in molestiae sint eligendi necessitatibus ut blanditiis?
+            </p>
+            <div><!-- Estilo Externo -->
+                <h1>Vamos Codar - Uso de ID como classe para CSS</h1>
+                <p id="psection1" class="psection" >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perferendis natus assumenda corrupti, hic dignissimos quam officiis, dolor, necessitatibus pariatur vero. Provident mollitia in molestiae sint eligendi necessitatibus ut blanditiis?
+                </p>
+                <p id="psection2" >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perferendis natus assumenda corrupti, hic dignissimos quam officiis, dolor, necessitatibus pariatur vero. Provident mollitia in molestiae sint eligendi necessitatibus ut blanditiis?
+                </p>
+                <p class="psection" >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perferendis natus assumenda corrupti, hic dignissimos quam officiis, dolor, necessitatibus pariatur vero. Provident mollitia in molestiae sint eligendi necessitatibus ut blanditiis?
+                </p>
+                <button class="meu-botao sem-borda cor-botao">Aperte</button>
+                <button>Enviar</button>
+            </div>
+            <hr/>
+        </section>
+        <section>
+            <h2>Seletores</h2>
+            <hr>
+            <div>
+                <ul class="lista">
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>Item3</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Seletores - Não é filho direto</h2>
+            </div>
+        </section>
+
+        <section id="seletor-universal">
+            <ol>
+                <li>Item1</li>
+            </ol>
+        </section>
+    </body>
+</html>

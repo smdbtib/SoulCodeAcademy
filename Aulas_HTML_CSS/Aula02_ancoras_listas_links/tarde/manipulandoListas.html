@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <!-- Existem 3 tipos de listas no HTML
+        Não ordenada (ul);
+        Ordenada (ol);
+        Definições (dl);
+     -->
+
+     <!-- NÃO ORDENADA -->
+     <h1>Lista Não ordenada</h1>
+     <ul type="square"> <!-- Tipo disc / circle / square -->
+         <li>Una</li>
+         <li>Pera</li>
+         <li>Manga
+             <ul type="disc">
+                <li>Rosa</li>
+                <li>Espada</li>
+             </ul>
+         </li>
+         <li>Banana</li>
+         <li>Goiaba</li>
+         <li>Laranja</li>
+     </ul>
+     <!--ORDENADA --> 
+     <h1>Lista Ordenada</h1>
+     <ol type="I"> <!--  A / a / I / i / 1 --> 
+        <li>Una</li>
+        <li>Pera</li>
+        <li>Manga
+            <ol type="i">
+               <li>Rosa</li>
+               <li>Espada</li>
+            </ol>
+        </li>
+        <li>Banana</li>
+        <li>Goiaba</li>
+        <li>Laranja</li>
+     </ol>
+     <!-- DEFINIÇÃO --> 
+     <h1>Lista Definição</h1>
+     <dl> 
+        <dt>HTML</dt><!-- Termo -->
+        <dd>Linguagem de marcação de hiper-texto</dd><!-- Definição -->
+        <dt>CSS</dt>
+        <dd>Folhas de estilos em Cascatas</dd>
+        <dt>JavaScript</dt><!-- Termo -->
+        <dd>É uma linguagem top</dd><!-- Definição -->
+        <dt>Jquery</dt>
+        <dd>É uma biblioteca de JavaScript</dd>
+        <dt>Bootstrap</dt><!-- Termo -->
+        <dd>É um framawork front-end</dd><!-- Definição -->
+        <dt>NodeJS</dt>
+        <dd>Ambiente de execução de JS</dd>
+        <dt>Angular</dt>
+        <dd>É um framawork front-end</dd>
+     </dl>  
+</body>
+</html>

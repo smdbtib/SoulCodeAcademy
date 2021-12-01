@@ -1,0 +1,35 @@
+#div-1{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    border-style: solid;
+    border-bottom: none;
+}
+
+#div-2 {
+    width: 500px;
+    height: 70px;
+    display: flex;
+    border-top: none;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;  
+}
+
+.t1 {
+    width: 50px;
+    height: 100px;
+    border-style: solid;
+    background-color: black;
+    margin: 0 20px ;
+}
+
+.t2 {
+    width: 5px;
+    height: 64px;
+    border-style: solid;
+    border: gray;
+    background-color: gray;
+    margin: 6px 33px ;
+}
+

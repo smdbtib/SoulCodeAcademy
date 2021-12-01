@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; 
+    background-color: #22577aff;
+}
+
+.logo {
+    margin-left: 80px;
+}
+
+nav a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding: 10px;
+    list-style: none;
+    color: white;
+    font-size: 26px;
+}
+
+body {
+    background-color: white;
+    background-image: url(../img/background-geral.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.titulo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #22577aff;
+}
+
+.titulo-2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #22577aff;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 1080px;
+}
+
+.forms {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px; 
+}
+
+footer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 130px;
+    background-color: #22577aff;
+    line-height: 25px;
+    width: 100%;
+}
+
+footer p {
+    font-size: 16px;
+    color: white;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}

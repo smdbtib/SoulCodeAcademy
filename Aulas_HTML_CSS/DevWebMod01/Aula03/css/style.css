@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #2F4F4F;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+main{
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+}
+
+header{
+    background-color: #1E90FF;
+    padding: 10px;
+    margin: 5px;
+}
+
+header img {
+    
+
+}

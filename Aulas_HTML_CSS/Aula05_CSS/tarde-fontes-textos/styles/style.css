@@ -1,0 +1,73 @@
+/* Inserir fonte do Google Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: grey;
+}
+
+.paragrafo-1 {
+    font-size: 16px;/*em / rem */
+    text-align: justify;/* left / right / justify / center */
+    font-style: italic;/* italic / oblique /normal */
+    font-weight: 550; /* bold / 100 a 900 expessura*/
+    color: cadetblue;
+    text-decoration: line-through; 
+    line-height: 35px; /*Espaçamento entre linhas*/
+}
+
+h1 {
+    font-family: Comforter Brush , cursive, Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+}
+
+#box {
+    /* height: 200px; */
+    width: 300px;
+    /* background-color: indianred; */
+    background-color: #046805;
+    /* background-color: rgb(38, 19,124); */
+    /* background-color: rgba(255, 0, 0, 1); */
+    
+    /* padding: 10px 20px;
+    padding-top: 30px ;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding: 20 px 10px 20px 10px; */
+    padding: 50px 50px;
+    line-height: 30px;
+    margin: 25px 50px;
+}
+
+#box p {
+    background-color: red;
+}
+
+/* REPRESETAR COR NO CSS 
+
+1 -- NOME DA COR 
+..... color: red;
+
+2 -- HEXADECIMAL
+.....color: #046805;
+
+3 -- RGB OU RGBA
+.....color: (000, 255 , 000)
+*/
+
+

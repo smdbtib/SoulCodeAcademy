@@ -1,0 +1,223 @@
+h1 {
+    background-color: violet;
+    opacity: 0.6;
+}
+
+.mydiv {
+    background-image: url("../img/logo.jpg");
+    background-repeat: repeat;
+    /* background-position: center; */
+    background-attachment: fixed;
+    opacity: 1;
+    background-size: 30px;
+}
+
+.x1 {
+    border-style: dotted;
+}
+
+.x2 {
+    border-style: dashed;
+}
+
+.x3 {
+    border-style: solid;
+}
+
+.x4 {
+    border-style: double;
+}
+
+.x5 {
+    border-style: groove;
+}
+
+.x6 {
+    border-style: ridge;
+}
+
+.x7 {
+    border-style: inset;
+}
+
+.x8 {
+    border-style: outset;
+}
+
+.x9 {
+    border-style: none;
+}
+
+.x10 {
+    border-style: hidden;
+}
+
+.ex1 {
+    border-style: solid;
+    border-width: 5px;
+}   
+
+.ex2 {
+    border-style: dashed;
+    border-width: 5px;
+}
+
+.ex3 {
+    border-style: dotted;
+    border-width: medium;
+}
+
+.ex4 {
+    border-style: groove;
+    border-width: thick;
+}
+
+.p1 {
+    border-style: solid;
+    border-width: 20px 5px;
+}
+
+.p2 {
+    border-style: dashed;
+    border-width: 25px 2px;
+}
+
+.p3 {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+}
+
+.p4 {
+    border-style: dotted solid double dashed;
+}
+
+.p5 {
+    border-style: dotted solid double;
+    
+}
+
+.p6 {
+    border-style: dotted solid;
+}
+
+.p7 {
+    border-style: solid;
+}
+
+.p8 {
+    border-left: 6px solid red;
+    background-color: lightblue;
+    border-style: dotted solid;
+}
+
+.p9 {
+    border-top: 6px solid red;
+    background-color: royalblue;
+}
+
+.p10 {
+    border: 2px solid red;
+    padding: 5px;
+}
+
+.p11 {
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.p12 {
+    border: red  dashed 2px  ;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.p13 {
+    border: red  dashed 2px  ;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.d1 {
+    width: 400px;
+    height: 400px;
+    border: green  dashed 2px  ;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+
+.box-back {
+    background-image: url("../img/teclado.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.8;
+    background-size: 450px;
+}
+
+#box-1{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    border-style: solid;
+    border-bottom: none;
+}
+
+#box-2 {
+    width: 500px;
+    height: 70px;
+    display: flex;
+    border-top: none;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;  
+}
+
+.t1 {
+    width: 50px;
+    height: 100px;
+    border-style: solid;
+    background-color: black;
+    margin: 0 20px ;
+}
+
+.t2 {
+    width: 6px;
+    height: 64px;
+    border-style: solid;
+    border: gray;
+    background-color: gray;
+    margin: 6px 33px ;
+}
+
+
+
+/* .l1 {
+    width: 40px;
+    height: 20px;
+    
+} */
+
+ /* #box-l2 {
+    width: 40px;
+    height: 4px;
+    display: flex;
+    border-style: solid;
+    border-bottom: none;
+} */
+/* 
+.t1 {
+    width: 80px;
+    height: 100px;
+    border-style: solid;
+    background-color: black;
+    margin: 0 px ;
+} 
+ .t2 {
+    width: 6px;
+    height: 64px;
+    border-style: solid;
+    border: gray;
+    background-color: gray;
+    margin: 6px 33px ;
+} */ 

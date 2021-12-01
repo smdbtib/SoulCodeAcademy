@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.left {
+    background-color: lightblue;
+    padding: 20px;
+    float: left;
+    width: 20%;
+}
+
+.main {
+    background-color: lightgreen;
+    padding: 20px;
+    float: left;
+    width: 60%; 
+}
+
+.right {
+    background-color: lightsalmon;
+    padding: 20px;
+    float: left;
+    width: 20%;
+}
+
+@media screen and (max-width: 800px){
+    .left, .main, .right {
+        width: 100%;
+    }
+}
+
+/* Para uso com flex */
+/* @media screen and (max-width: 800px){
+    .left, .main, .rigth {
+       flex-direction: column;
+    }
+} */
+
+
+
+/* @media only screen and (max-width: 600px) {
+    body {
+        background-color: blue;
+    }
+} */
+
