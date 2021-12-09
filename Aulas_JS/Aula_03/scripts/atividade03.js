@@ -37,7 +37,6 @@ function validateNumber(){
     return true;
 }
 
-
 function printUntil(number){
     var limit = 999;
     console.log("And there we go!")
