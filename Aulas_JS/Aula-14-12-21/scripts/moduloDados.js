@@ -11,7 +11,6 @@ const produtos = [
     { id: 18, nome: "Picanha Suína", valor: 23.6, categoria: "alimentos" },
     { id: 19, nome: "Blusa Azul", valor: 39.6, categoria: "vestimenta" },
     { id: 20, nome: "Bermuda Jeans", valor: 59.4, categoria: "vestimenta" }
-  ];
-  //Rota de objetos por parâmetros.
-  export default produtos;
-  
+];
+//Rota de objetos por parâmetros.
+export default produtos;

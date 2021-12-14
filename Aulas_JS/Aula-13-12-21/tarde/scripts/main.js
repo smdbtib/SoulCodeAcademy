@@ -10,9 +10,9 @@ myForm.addEventListener("submit", function(e){
   // VALIDATE NICK NAME
   const smallNickName = myForm.nickName.nextElementSibling; 
 
-  if(myForm.email.value.includes(nickNames)){
+  if(nickNames.includes(myForm.nickName.value)){
     myForm.nickName.classList.add("invalid");
-    smallNickName.innerHTML = "Nick name exist!";
+    smallNickName.innerHTML = `${myForm.nickName.value} já existe!`;
     
   }else{
     myForm.nickName.classList.remove("invalid");
@@ -54,7 +54,7 @@ myForm.addEventListener("submit", function(e){
     myForm.password.classList.remove("invalid");
     smallPassword.innerHTML = "";
   }
-  //Task 002: Crie outro campo de senha e valide se os dois são iguais
+  // VALIDATE PASSWORD Task 002: Crie outro campo de senha e valide se os dois são iguais
   const smallPassword2 = myForm.password2.nextElementSibling; 
 
   if(myForm.password.value !== myForm.password2.value){
