@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Validate Form</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles/style.css" type="text/css" >
+  </head>
+  <body>
+    <form action="/add" name="myForm">
+      <div>
+        <label for="nickName">Nick Name</label>
+        <input type="text" name="nickName" id="nickName"/>
+        <small class="invalid"></small>
+      </div>
+      <div>
+        <label for="fullName">Full Name</label>
+        <input type="text" name="fullName" id="fullName"/>
+        <small class="invalid"></small>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"/>
+        <small class="invalid"></small>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="/password">
+        <small class="invalid"></small>
+      </div>
+      <div>
+        <label for="password2">Confirm Password</label>
+        <input type="password" name="password2" id="/password2">
+        <small class="invalid"></small>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </body>
+  <footer>
+    <script src="scripts/main.js"></script>
+  </footer>
+</html>

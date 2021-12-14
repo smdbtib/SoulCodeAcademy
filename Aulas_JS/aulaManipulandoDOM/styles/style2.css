@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#artigo-1 {
+    padding: 16px 8px;
+    background-color: gold;
+}
+
+.fundo-cinza {
+    background-color: grey;
+}
+

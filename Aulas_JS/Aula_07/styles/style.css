@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+  }
+  .corpoGeral {
+    padding: 5%;
+  }
+  .corBase {
+    padding: 0.3rem;
+    margin: 0.2rem;
+  }
+  .estiloVermelho {
+    background-color: cadetblue;
+  }
+  .estiloAzul {
+    background-color: aqua;
+  }
+  
