@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Listagem de Alunos</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+  </head>
+  <body>
+    <div id="displayStudents"></div>
+    <div id="painelProdutos">
+      <fieldset>
+        <legend>Student Filter</legend>
+        <div class="painelSeparador">
+          <label for="nome">Name: </label>
+          <br />
+          <input type="text" id="nome" /><br />
+        </div>
+        <div class="painelSeparador">
+          <label for="sobrenome">Surname: </label>
+          <br />
+          <input type="text" id="sobrenome" /><br />
+        </div>
+        <div class="painelSeparador">
+          <label for="nascimento">Birth: </label>
+          <br />
+          <input type="text" id="nascimento" /><br />
+        </div>
+        <div class="painelSeparador">
+          <label for="rg">RG: </label>
+          <br />
+          <input type="text" id="rg" /><br />
+        </div>
+        <div class="painelSeparador">
+          <label for="cpf">CPF: </label>
+          <br />
+          <input type="text" id="cpf" /><br />
+        </div>
+        <div class="painelSeparador">
+          <label for="valor">Base income: </label>
+          <br />
+          <input type="text" id="valor" /><br />
+        </div>
+        <div class="painelSeparador">
+          <label for="gender">Gender: </label>
+          <br />
+          <select id="gender">
+          </select>
+          <input type="text" id="generoAdd" />
+        </div>
+        <div class="painelSeparador">
+          <button id="btFilter">Filtrar</button>
+          <button id="btAdd">Adicionar</button>
+        </div>
+      </fieldset>
+    </div>
+    <div id="filterStudents"></div>
+  </body>
+  <footer>
+    <script src="scripts/main.js" type="module"></script>
+  </footer>
+</html>
