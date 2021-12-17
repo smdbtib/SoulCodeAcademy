@@ -11,18 +11,18 @@ class TemplatePage {
       students.forEach((students, index) =>{
           let itemColor = "";
           if(index % 2 === 0){
-            itemColor = "itemAzul"
+            itemColor = "itemBlue"
           }else{
-            itemColor = "itemClaro";
+            itemColor = "itemLightBlue";
           }
           listingHtml += `<li class="${itemColor}"> 
-                            | Name: ${students.nome} ${students.sobrenome} 
-                            | Birth: ${students.nascimento}
+                            | Name: ${students.name} ${students.surname} 
+                            | Birth: ${students.birth}
                             | RG: ${students.rg}
                             | CPF: ${students.cpf}
-                            | [${students.genero}]
-                            | Income: ${students.renda.toFixed(2)}
-                            | Margin: ${this.calculateMargin(0.3, students.renda).toFixed(2)}
+                            | [${students.gender}]
+                            | Income: ${students.income}
+                            | Margin: ${this.calculateMargin(0.3, students.income).toFixed(2)}
                          </li>`
       });
       listingHtml += "</ol>"
@@ -33,56 +33,71 @@ class TemplatePage {
     }
     displayGender(){
         let opitionHtml = "";
-        const gender = students.map((students)=> students.genero);
+        const gender = students.map((students)=> students.gender);
         const genderOption = [... new Set(gender)];
-        genderOption.forEach((genderOp) => {
-            opitionHtml += `<option value="${genderOp}">
-            ${genderOp.toLocaleUpperCase()}</option>`; 
+        genderOption.forEach((genderOption) => {
+            opitionHtml += `<option value="${genderOption}">
+            ${genderOption.toLocaleUpperCase()}</option>`; 
         });
         return opitionHtml;
     }
     filterStudents(name){
-        let listingHtml = "";  
-        listingHtml += "<ol>";
-        const filterStudents = students.filter((students)=> students.nome === name);
-        filterStudents.forEach((filterStudents) => {
+        let filterHtml = "<ol>"
+        const filterStudents = students.filter((students)=> students.name === name);
+        filterStudents.forEach((filterStudents, index) => {
             let itemColor = "";
             if(index % 2 === 0){
-              itemColor = "itemAzul"
+              itemColor = "itemBlue"
             }else{
-              itemColor = "itemClaro";
+              itemColor = "itemLightBlue";
             }
             filterHtml += `<li class="${itemColor}"> 
-                                | Name: ${filterStudents.nome} ${filterStudents.sobrenome} 
-                                | Birth: ${filterStudents.nascimento}
+                                | Name: ${filterStudents.name} ${filterStudents.surname} 
+                                | Birth: ${filterStudents.birth}
                                 | RG: ${filterStudents.rg}
                                 | CPF: ${filterStudents.cpf}
-                                | [${filterStudents.genero}]
-                                | Income: ${filterStudents.renda.toFixed(2)}
-                                | Margin: ${this.calculateMargin(0.3, filterStudents.renda).toFixed(2)}
+                                | [${filterStudents.gender}]
+                                | Income: ${filterStudents.income}
+                                | Margin: ${this.calculateMargin(0.3, filterStudents.income).toFixed(2)}
                              </li>`
         });
         filterHtml += "</ol>"
         return filterHtml;
     }
-    addStudent(nome, sobrenome, nascimento, rg, cpf, genero, renda){
+    addStudent(name, surname, birth, rg, cpf, gender, income, addGender){
+        let addStudent = "<ol>";
         if(genderAdd !== ""){
-            genero = genderAdd;
+            gender = addGender;
         }
-        students.splice(students.length
-            , 0,
-            {
-                id: students.length,
-                nome: nome,
-                sobrenome: sobrenome,
-                nascimento: nascimento,
+        students.splice(students.length, 0, {
+                id: students.length + 1,
+                name: name,
+                surname: surname,
+                birth: birth,
                 rg: rg,
                 cpf: cpf,
-                genero: genero,
-                renda: renda
+                gender: gender,
+                income: income
+            });
+        students.forEach((students, index) => {
+            let itemColor = "";
+            if(index % 2 === 0){
+                itemColor = "itemBlue"
+            }else{
+                itemColor = "itemLightBlue";
             }
-        );
-        console.log(students);
+            addStudent += `<li class="${itemColor}"> 
+                                | Name: ${students.name} ${students.surname} 
+                                | Birth: ${students.birth}
+                                | RG: ${students.rg}
+                                | CPF: ${students.cpf}
+                                | [${students.gender}]
+                                | Income: ${students.income}
+                                | Margin: ${this.calculateMargin(0.3, students.income).toFixed(2)}
+                            </li>`
+        });
+        addStudent += "</ol>"
+        return addStudent;
     }
 }
 const homePage = new TemplatePage("Projeto Sala Invertida", "");

@@ -1,123 +1,135 @@
 const students = [
     {
       id: 1,
-      nome: "Joana",
-      sobrenome: " Andrade",
-      nascimento: "29/04/1995",
+      name: "Joana",
+      surname: " Andrade",
+      birth: "29/04/1995",
       rg: "561521449",
       cpf: 54367893509,
-      genero: "F",
-      renda: 1233.78
+      gender: "F",
+      income: 1233.78,
+      notes: [8, 9]
     },
     {
       id: 2,
-      nome: "Cleber",
-      sobrenome: " Gonçalves",
-      nascimento: "28/05/1995",
+      name: "Cleber",
+      surname: " Gonçalves",
+      birth: "28/05/1995",
       rg: "561521449",
       cpf: 54367893509,
-      genero: "M",
-      renda: 7345.78
+      gender: "M",
+      income: 7345.78,
+      notes: [4, 9]
     },
     {
       id: 3,
-      nome: "Maria",
-      sobrenome: " Silva",
-      nascimento: "27/06/1995",
+      name: "Maria",
+      surname: " Silva",
+      birth: "27/06/1995",
       rg: "561521449",
       cpf: 54367893509,
-      genero: "F",
-      renda: 9236.0
+      gender: "F",
+      income: 9236.0,
+      notes: [8, 5]
     },
     {
       id: 4,
-      nome: "Lucas",
-      sobrenome: " Pereira",
-      nascimento: "26/07/1995",
+      name: "Lucas",
+      surname: " Pereira",
+      birth: "26/07/1995",
       rg: "561521449",
       cpf: 54367893509,
-      genero: "M",
-      renda: 1573.0
+      gender: "M",
+      income: 1573.0,
+      notes: [7, 7]
     },
     {
       id: 5,
-      nome: "Clarice",
-      sobrenome: " Ferreira",
-      nascimento: "25/08/1995",
+      name: "Clarice",
+      surname: " Ferreira",
+      birth: "25/08/1995",
       rg: "561521449",
       cpf: 54367893509,
-      genero: "F",
-      renda: 2934.78
+      gender: "F",
+      income: 2934.78,
+      notes: [8, 8]
     },
     {
       id: 6,
-      nome: "Mateus",
-      sobrenome: " Sousa",
-      nascimento: "24/01/1995",
+      name: "Mateus",
+      surname: " Sousa",
+      birth: "24/01/1995",
       rg: "561521449",
       cpf: 54367893509,
-      genero: "M",
-      renda: 3700.0
+      gender: "M",
+      income: 3700.0,
+      notes: [6, 6]
     },
     {
       id: 7,
-      nome: "Giovanna",
-      sobrenome: " Lima",
-      nascimento: "23/02/1995",
+      name: "Giovanna",
+      surname: " Lima",
+      birth: "23/02/1995",
       rg: "561521449",
       cpf: 54367893509,
-      genero: "F",
-      renda: 3420.0
+      gender: "F",
+      income: 3420.0,
+      notes: [5, 6]
     },
     {
       id: 8,
-      nome: "Maik",
-      sobrenome: " Lourenço",
-      nascimento: "22/03/1995",
+      name: "Maik",
+      surname: " Lourenço",
+      birth: "22/03/1995",
       rg: "561521449",
       cpf: 54367893509,
-      genero: "M",
-      renda: 5920.78
+      gender: "M",
+      income: 5920.78,
+      notes: [4, 5]
     },
     {
       id: 9,
-      nome: "Gabriela",
-      sobrenome: " Mello",
-      nascimento: "21/09/1995",
+      name: "Gabriela",
+      surname: " Mello",
+      birth: "21/09/1995",
       rg: "561521449",
       cpf: 54367893509,
-      genero: "F",
-      renda: 4500.0
+      gender: "F",
+      income: 4500.0,
+      notes: [8, 7]
     },
     {
       id: 10,
-      nome: "Jonathan",
-      sobrenome: " Alves",
-      nascimento: "20/10/1995",
+      name: "Jonathan",
+      surname: " Alves",
+      birth: "20/10/1995",
       rg: "561521449",
       cpf: 54367893509,
-      genero: "M",
-      renda: 6000.0
+      gender: "M",
+      income: 6000.0,
+      notes: [9, 9]
     },
     {
       id: 11,
-      nome: "Victor",
-      sobrenome: " Oliveira",
-      nascimento: "19/11/1995",
+      name: "Victor",
+      surname: " Oliveira",
+      birth: "19/11/1995",
       rg: "561521449",
       cpf: 54367893509,
-      genero: "M",
-      renda: 2300.0
+      gender: "M",
+      income: 2300.0,
+      notes: [8, 9]
     },
     {
       id: 12,
-      nome: "Marcela",
-      sobrenome: " Gomes",
-      nascimento: "18/12/1995",
+      name: "Marcela",
+      surname: " Gomes",
+      birth: "18/12/1995",
       rg: "561521449",
       cpf: 54367893509,
-      genero: "F",
-      renda: 1930.78
+      gender: "F",
+      income: 1930.78,
+      notes: [8, 6]
     }
   ];
 
