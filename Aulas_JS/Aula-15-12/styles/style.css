@@ -16,6 +16,12 @@ body {
     padding: 0.5rem;
     margin: 0.2rem;
   }
+
+  .itemRed{
+    background-color: lightpink;
+    padding: 0.5rem;
+    margin: 0.2rem;
+  }
   .separatorPanel {
     padding: 0.2rem;
     margin: 0.3rem;

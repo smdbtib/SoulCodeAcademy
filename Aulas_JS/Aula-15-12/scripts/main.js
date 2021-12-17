@@ -21,6 +21,8 @@ btAdd.addEventListener("click", (event) => {
         gender = document.getElementById("gender").value,
         income = document.getElementById("income").value,
         addGender = document.getElementById("genderAdd").value;
+    /*     note1 = document.getElementById("note1").value; 
+        note2 = document.getElementById("note2").value;  */
     if(
         name === "" ||
         surname === "" ||
@@ -28,7 +30,9 @@ btAdd.addEventListener("click", (event) => {
         rg === "" ||
         cpf === "" ||
         gender === "" ||
-        income === "" )
+        income === "" ||
+        note1 == "" ||
+        note2 == "" )
         {
             alert("Fields cannot be empty!");
     } else {
@@ -40,9 +44,12 @@ btAdd.addEventListener("click", (event) => {
             cpf,
             gender,
             income,
+            note1,
+            note2,
             addGender
         );
         document.getElementById("gender").innerHTML = displayStudents();
     }
 });
+document.getElementById("displayLowerAverageStudents").innerHTML = homePage.displayRecoveringStudents();
 

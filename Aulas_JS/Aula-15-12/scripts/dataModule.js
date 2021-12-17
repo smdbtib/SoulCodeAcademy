@@ -19,7 +19,7 @@ const students = [
       cpf: 54367893509,
       gender: "M",
       income: 7345.78,
-      notes: [4, 9]
+      notes: [7, 7]
     },
     {
       id: 3,
@@ -74,7 +74,7 @@ const students = [
       cpf: 54367893509,
       gender: "F",
       income: 3420.0,
-      notes: [5, 6]
+      notes: [7, 7]
     },
     {
       id: 8,

@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
   </head>
   <body>
+    <h2> List of students</h2>
     <div id="displayStudents"></div>
     <div id="painelProdutos">
       <fieldset>
@@ -41,6 +42,16 @@
           <input type="text" id="income" /><br />
         </div>
         <div class="separatorPanel">
+          <label for="note1">Note 1: </label>
+          <br />
+          <input type="text" id="note1" /><br />
+        </div>
+        <div class="separatorPanel">
+          <label for="note2">Note 2: </label>
+          <br />
+          <input type="text" id="note2" /><br />
+        </div>
+        <div class="separatorPanel">
           <label for="gender">Gender: </label>
           <br />
           <select id="gender">
@@ -55,6 +66,9 @@
     </div>
     <div id="filterStudents"></div>
   </body>
+  <h2>List of students in recovery</h2>
+  <div id="displayLowerAverageStudents">
+  </div>
   <footer>
     <script src="scripts/main.js" type="module"></script>
   </footer>
